@@ -1,0 +1,327 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		260DD9C7228ABE9A00C9FA1F /* main.c in Sources */ = {isa = PBXBuildFile; fileRef = 260DD9C6228ABE9A00C9FA1F /* main.c */; };
+		260DD9D5228ABFB000C9FA1F /* calculations.c in Sources */ = {isa = PBXBuildFile; fileRef = 260DD9CE228ABFAF00C9FA1F /* calculations.c */; };
+		260DD9D6228ABFB000C9FA1F /* gps.c in Sources */ = {isa = PBXBuildFile; fileRef = 260DD9D1228ABFAF00C9FA1F /* gps.c */; };
+		260DD9D7228ABFB000C9FA1F /* compass.c in Sources */ = {isa = PBXBuildFile; fileRef = 260DD9D3228ABFB000C9FA1F /* compass.c */; };
+		260DD9DA228ACA9700C9FA1F /* waypoints.c in Sources */ = {isa = PBXBuildFile; fileRef = 260DD9D9228ACA9700C9FA1F /* waypoints.c */; };
+		260DD9DD228ACAC600C9FA1F /* distancedirection.c in Sources */ = {isa = PBXBuildFile; fileRef = 260DD9DC228ACAC600C9FA1F /* distancedirection.c */; };
+		263E50FD22A435AF00F8E445 /* PID.c in Sources */ = {isa = PBXBuildFile; fileRef = 263E50FC22A435AF00F8E445 /* PID.c */; };
+		263E510022A4387200F8E445 /* motorcontrol.c in Sources */ = {isa = PBXBuildFile; fileRef = 263E50FF22A4387200F8E445 /* motorcontrol.c */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		260DD9C1228ABE9A00C9FA1F /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		260DD9C3228ABE9A00C9FA1F /* Berechnung */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = Berechnung; sourceTree = BUILT_PRODUCTS_DIR; };
+		260DD9C6228ABE9A00C9FA1F /* main.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = main.c; sourceTree = "<group>"; };
+		260DD9CD228ABFAF00C9FA1F /* gps.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = gps.h; sourceTree = "<group>"; };
+		260DD9CE228ABFAF00C9FA1F /* calculations.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = calculations.c; sourceTree = "<group>"; };
+		260DD9CF228ABFAF00C9FA1F /* main.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = main.h; sourceTree = "<group>"; };
+		260DD9D0228ABFAF00C9FA1F /* compass.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = compass.h; sourceTree = "<group>"; };
+		260DD9D1228ABFAF00C9FA1F /* gps.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = gps.c; sourceTree = "<group>"; };
+		260DD9D2228ABFAF00C9FA1F /* mainvars.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = mainvars.h; sourceTree = "<group>"; };
+		260DD9D3228ABFB000C9FA1F /* compass.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = compass.c; sourceTree = "<group>"; };
+		260DD9D4228ABFB000C9FA1F /* calculations.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = calculations.h; sourceTree = "<group>"; };
+		260DD9D8228ACA9700C9FA1F /* waypoints.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = waypoints.h; sourceTree = "<group>"; };
+		260DD9D9228ACA9700C9FA1F /* waypoints.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = waypoints.c; sourceTree = "<group>"; };
+		260DD9DB228ACAC600C9FA1F /* distancedirection.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = distancedirection.h; sourceTree = "<group>"; };
+		260DD9DC228ACAC600C9FA1F /* distancedirection.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = distancedirection.c; sourceTree = "<group>"; };
+		260DD9DE22946F2A00C9FA1F /* Waypoints.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Waypoints.txt; sourceTree = "<group>"; };
+		263E50FB22A435AF00F8E445 /* PID.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PID.h; sourceTree = "<group>"; };
+		263E50FC22A435AF00F8E445 /* PID.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = PID.c; sourceTree = "<group>"; };
+		263E50FE22A4387200F8E445 /* motorcontrol.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = motorcontrol.h; sourceTree = "<group>"; };
+		263E50FF22A4387200F8E445 /* motorcontrol.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = motorcontrol.c; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		260DD9C0228ABE9A00C9FA1F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		260DD9BA228ABE9A00C9FA1F = {
+			isa = PBXGroup;
+			children = (
+				260DD9C5228ABE9A00C9FA1F /* Berechnung */,
+				260DD9C4228ABE9A00C9FA1F /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		260DD9C4228ABE9A00C9FA1F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				260DD9C3228ABE9A00C9FA1F /* Berechnung */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		260DD9C5228ABE9A00C9FA1F /* Berechnung */ = {
+			isa = PBXGroup;
+			children = (
+				260DD9DE22946F2A00C9FA1F /* Waypoints.txt */,
+				260DD9CE228ABFAF00C9FA1F /* calculations.c */,
+				260DD9D4228ABFB000C9FA1F /* calculations.h */,
+				260DD9D3228ABFB000C9FA1F /* compass.c */,
+				260DD9D0228ABFAF00C9FA1F /* compass.h */,
+				260DD9D1228ABFAF00C9FA1F /* gps.c */,
+				260DD9CD228ABFAF00C9FA1F /* gps.h */,
+				260DD9D8228ACA9700C9FA1F /* waypoints.h */,
+				260DD9D9228ACA9700C9FA1F /* waypoints.c */,
+				260DD9DB228ACAC600C9FA1F /* distancedirection.h */,
+				260DD9DC228ACAC600C9FA1F /* distancedirection.c */,
+				263E50FB22A435AF00F8E445 /* PID.h */,
+				263E50FC22A435AF00F8E445 /* PID.c */,
+				263E50FE22A4387200F8E445 /* motorcontrol.h */,
+				263E50FF22A4387200F8E445 /* motorcontrol.c */,
+				260DD9D2228ABFAF00C9FA1F /* mainvars.h */,
+				260DD9CF228ABFAF00C9FA1F /* main.h */,
+				260DD9C6228ABE9A00C9FA1F /* main.c */,
+			);
+			path = Berechnung;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		260DD9C2228ABE9A00C9FA1F /* Berechnung */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 260DD9CA228ABE9A00C9FA1F /* Build configuration list for PBXNativeTarget "Berechnung" */;
+			buildPhases = (
+				260DD9BF228ABE9A00C9FA1F /* Sources */,
+				260DD9C0228ABE9A00C9FA1F /* Frameworks */,
+				260DD9C1228ABE9A00C9FA1F /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Berechnung;
+			productName = Berechnung;
+			productReference = 260DD9C3228ABE9A00C9FA1F /* Berechnung */;
+			productType = "com.apple.product-type.tool";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		260DD9BB228ABE9A00C9FA1F /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1020;
+				ORGANIZATIONNAME = "Oliver G.";
+				TargetAttributes = {
+					260DD9C2228ABE9A00C9FA1F = {
+						CreatedOnToolsVersion = 10.2.1;
+					};
+				};
+			};
+			buildConfigurationList = 260DD9BE228ABE9A00C9FA1F /* Build configuration list for PBXProject "Berechnung" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 260DD9BA228ABE9A00C9FA1F;
+			productRefGroup = 260DD9C4228ABE9A00C9FA1F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				260DD9C2228ABE9A00C9FA1F /* Berechnung */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		260DD9BF228ABE9A00C9FA1F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				260DD9DD228ACAC600C9FA1F /* distancedirection.c in Sources */,
+				263E510022A4387200F8E445 /* motorcontrol.c in Sources */,
+				260DD9D7228ABFB000C9FA1F /* compass.c in Sources */,
+				260DD9D6228ABFB000C9FA1F /* gps.c in Sources */,
+				260DD9C7228ABE9A00C9FA1F /* main.c in Sources */,
+				260DD9D5228ABFB000C9FA1F /* calculations.c in Sources */,
+				263E50FD22A435AF00F8E445 /* PID.c in Sources */,
+				260DD9DA228ACA9700C9FA1F /* waypoints.c in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		260DD9C8228ABE9A00C9FA1F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		260DD9C9228ABE9A00C9FA1F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		260DD9CB228ABE9A00C9FA1F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		260DD9CC228ABE9A00C9FA1F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		260DD9BE228ABE9A00C9FA1F /* Build configuration list for PBXProject "Berechnung" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				260DD9C8228ABE9A00C9FA1F /* Debug */,
+				260DD9C9228ABE9A00C9FA1F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		260DD9CA228ABE9A00C9FA1F /* Build configuration list for PBXNativeTarget "Berechnung" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				260DD9CB228ABE9A00C9FA1F /* Debug */,
+				260DD9CC228ABE9A00C9FA1F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 260DD9BB228ABE9A00C9FA1F /* Project object */;
+}
